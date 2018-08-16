@@ -7,6 +7,9 @@
 Use this Starter template to create quickly first scaffolding for your SPA project.
 If you like to don't forget to ★ on Github.
 
+## Troubleshooting
+
+See [Troubleshooting](./Troubleshooting.md) guide ;)
 
 ## Features
 - [React](https://facebook.github.io/react)
