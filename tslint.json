@@ -1,12 +1,29 @@
 {
   "extends": [
     "tslint:latest",
-    "tslint-react"
+    "tslint-react",
+    "tslint-config-prettier"
   ],
   "rules": {
-    "ban": [
+    "typedef-whitespace": [
       true,
-      [
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      },
+      {
+        "call-signature": "onespace",
+        "index-signature": "onespace",
+        "parameter": "onespace",
+        "property-declaration": "onespace",
+        "variable-declaration": "onespace"
+      }
+    ],
+    "ban": [
+      true, [
         "Object",
         "assign",
         "use TS2.1 object spread { ...a, ...b }"
